@@ -4,8 +4,10 @@ What is Pi Vision?
 	It allows you to controll the camera functions throught the camera's
 	native camera apps. It also displays the terminal commands sent. 
 	
-	The project has been released as Open source. It is what you make of it. 
-
+	The project has been released as Open source. It is what you make of it.
+	
+	![Alt text]http://www.iograsp.com/download/pivision/img/1.png "Screen shot")
+	
 Copyright
 
      	Pi Vision Copyright 2013 B.J.Rao
