@@ -8,7 +8,6 @@
         <Filename Value="rpiCC.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="rpiCC"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="45"/>
@@ -35,10 +34,11 @@
         <Filename Value="rpiccbackendmanager.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="rpiccBackEndManager"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="60" Y="12"/>
+        <TopLine Value="52"/>
+        <CursorPos X="26" Y="73"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
       </Unit2>

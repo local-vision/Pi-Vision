@@ -75,7 +75,7 @@ const
       c_Aplication_About='A Simple Controller for the Raspberry Pi Camera';
       c_Project_Creator='B.J. Rao';
       //c_Terminal='gnome-terminal'; // mint
-      c_Terminal='terminal'; // rpi
+      c_Terminal='lxterminal'; // rpi
       c_Space=' ';
       c_Comma=',';
       c_DoublePoint=':';
