@@ -1,11 +1,11 @@
 What is Pi Vision?
 
-	Pi Vision is a Graphics User Interface for the Raspberry Pi Camera.
+	Pi Vision is a Graphical User Interface for the Raspberry Pi Camera.
 	It allows you to control the camera functions through the camera's
 	native camera apps. It also displays the terminal commands sent. 
 
 	The project was developed using Lazarus FPC and has been released 
-	as Open source. It is what you make of it.
+	as open source. It is what you make of it.
 
 	The incentive of Pi Vision is to allow for easy use of the 
 	Raspberry Pi camera while also serving as an instructional tool. 
