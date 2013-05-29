@@ -13,7 +13,7 @@ What is Pi Vision?
 	in understanding the command structure.
 
 	While Pi Vision is specificaly built for the ARM based Raspberry Pi, 
-	binairies have also been provided for Windows, OSX and 
+	binaries have also been provided for Windows, OSX and 
 	Debian Linux. These are, however, only intended to review the 
 	application.
 
