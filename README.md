@@ -6,7 +6,7 @@ What is Pi Vision?
 	
 	The project has been released as Open source. It is what you make of it.
 	
-	![Alt text](http://www.iograsp.com/download/pivision/img/1.png "Screen shot")
+	![Alt text](http://www.iograsp.com/download/pivision/img/1.png?raw=true"Screen shot")
 	
 Copyright
 
