@@ -6,8 +6,6 @@ What is Pi Vision?
 	
 	The project has been released as Open source. It is what you make of it.
 	
-	![solarized dualmode](http://www.iograsp.com/download/pivision/img/1.png)
-	
 Copyright
 
      	Pi Vision Copyright 2013 B.J.Rao
