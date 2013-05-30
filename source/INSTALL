@@ -87,7 +87,6 @@ expand_rootfs Expand root partition to fill SD card
 
 You will need to do this prior to installing Lazarus.
 
-
 The official Lazarus FPC website can be found here:
 
 http://www.lazarus.freepascal.org/
@@ -95,6 +94,10 @@ http://www.lazarus.freepascal.org/
 
 PROJECT SOURCES
 ===============
+
+Start LXDE on the Raspberry.
+
+startx
 
 Create a directory in a desired location on your Raspberry. Place all source 
 files and directories in this directory. Pi Vision's Lazarus project file 
