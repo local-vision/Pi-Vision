@@ -17,6 +17,20 @@ What is Pi Vision?
 	Debian Linux. These are, however, only intended to review the 
 	application.
 
+Where is the Install document?
+
+	See the directory named "source" for the install.
+
+Why won't Pi Vision app run on the Raspberry?
+
+	You need to set its Permissions first.
+
+	In order to run your apps independently from the Lazarus IDE you will 
+	first need to set permissions. Right-click on the app and select Properties 
+	from the drop-down. Select the Permissions tab from the Properties menu.
+	There is a small check-box called "Make this file executable". Check this, 
+	close the window and click on the app to run it.
+ 
 Copyright
 
 	Pi Vision Copyright 2013 B.J.Rao

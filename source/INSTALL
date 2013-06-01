@@ -87,6 +87,14 @@ expand_rootfs Expand root partition to fill SD card
 
 You will need to do this prior to installing Lazarus.
 
+NOTE 3
+
+In order to run your apps independently from the Lazarus IDE you will 
+first need to set permissions. Right-click on the app and select Properties 
+from the drop-down. Select the Permissions tab from the Properties menu.
+There is a small check-box called "Make this file executable". Check this, 
+close the window and click on the app to run it.
+
 The official Lazarus FPC website can be found here:
 
 http://www.lazarus.freepascal.org/
