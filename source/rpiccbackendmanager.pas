@@ -496,6 +496,7 @@ var AppURL:String;                                         //Location path of ap
     v_Preview_Height:Integer=c_Default_Preview_Height;
     v_Preview_Window_Position_X:Integer=c_Default_Preview_Window_Position_X;
     v_Preview_Window_Position_Y:Integer=c_Default_Preview_Window_Position_Y;
+    v_Preview_PreviewTest:Boolean=False;
 
     v_Image_Ext_Index:Integer=c_Default_Image_Ext_Index;
     v_Image_Quality_Index:Integer=c_Default_Image_Quality_Index;
@@ -1209,6 +1210,12 @@ end;
 
 function rpiSetImageOutputSC(SC:String):String;
 begin
+  if v_Preview_PreviewTest then // preview only no image save
+  begin
+    v_Preview_PreviewTest:=False;
+    Result:=SC;
+    exit;
+  end;
   if v_Image_MakeTimeLapse then
   begin
     SC:=SC+c_Space+cmd_Image_Timelapse+c_Space+IntToStr(v_Image_Delay);

@@ -1697,8 +1697,7 @@ begin
   localText1:='Error';
 
   ReadAllControls;
-  v_Preview_PreviewTest:=True; //picture, no save image
-  v_CaptureMode_Index:=1;
+  v_CaptureMode_Index:=1; //picture, no save image
   try
     rpiExcecuteLocalProcessSudo(v_UserPass,rpiGetStackedCommand,False,Memo1,Memo2);
   except
