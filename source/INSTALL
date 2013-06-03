@@ -1,0 +1,127 @@
+Pi Vision, a Simple Controller for the Raspberry Pi Camera
+==========================================================
+
+Date           : May 29, 2013
+
+Status         : GNU Licensed
+
+System req.    : Raspberry Pi Board B, Raspbian Wheezy, Lazarus + Free Pascal Compiler
+
+Home page      : http://heywhatsthebigidea.net
+
+Note	       : All trademarks are the property of their respective owners
+		 - Raspberry Pi is a trademark owned by the Raspberry Pi Foundation
+ 
+
+DEVELOPMENT
+===========
+
+Pi Vision was specifically built for controlling the camera of the 
+ARM based Raspberry Pi. 
+
+However, Pi Vision was developed on Linux Mint 14 using Lazarus Pascal 
+and FPC and then re-compiled/built and tested on the Raspberry Pi using 
+Lazarus Pascal and FPC.
+
+The reasoning for this approach was to facilitate faster development using
+a modern desktop machine. Only the testing, troubleshooting and debugging 
+was performed on the Raspberry Pi. 
+
+As Lazarus runs on a plurality of systems it is also possible to 
+develop on other systems instead of using Linux Mint. These include:
+
+- Recent version of windows 32/64 bit
+- OSX intel
+- Linux RH/Deb
+
+In most all cases you will be able to use the supplied source directly and 
+without modification.
+
+In addition, cross-compilers exist which further facilitate ease of development.
+
+
+INSTALL LAZARUS + FPC ON RASPBIAN
+=================================
+
+The Internet provides ample information on how to install Lazarus on a 
+multitude of systems. Officially for Raspbian:
+
+http://wiki.freepascal.org/Lazarus_on_Raspberry_Pi
+
+A brief overview is provided here regarding installation on the Raspberry Pi 
+board B, Raspbian Wheezy.
+
+Lazarus + FPC (Free Pascal Compiler) is already part of the Raspbian 
+Repository.
+
+Open a terminal and enter the following commands:
+
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install fpc
+sudo apt-get install lazarus
+
+This process will take some time to download, unpack and install. After 
+installation you will find Lazarus from the "Programming" section of 
+the LXDE start menu.
+
+NOTE 1:
+
+This version of Lazarus is not the most recent. More recent version can be 
+compiled to run on Raspbian Weezy. But that is beyond this install document. 
+In any case this is not needed to compile and run Pi Vision.
+
+NOTE 2:
+
+In order to install Lazarus and its dependencies you will need enough disc 
+space. Make sure that the entire SD card that contains the Raspbian image is 
+employed. The start menu in Raspbian will display options for this. To open
+this menu open a terminal and type in the command:
+
+sudo raspi-config
+
+It is one of the first options called:
+
+expand_rootfs Expand root partition to fill SD card
+
+You will need to do this prior to installing Lazarus.
+
+NOTE 3
+
+In order to run your apps independently from the Lazarus IDE you will 
+first need to set permissions. Right-click on the app and select Properties 
+from the drop-down. Select the Permissions tab from the Properties menu.
+There is a small check-box called "Make this file executable". Check this, 
+close the window and click on the app to run it.
+
+The official Lazarus FPC website can be found here:
+
+http://www.lazarus.freepascal.org/
+
+
+PROJECT SOURCES
+===============
+
+Start LXDE on the Raspberry.
+
+startx
+
+Create a directory in a desired location on your Raspberry. Place all source 
+files and directories in this directory. Pi Vision's Lazarus project file 
+is called:
+
+rpiCC.lpr
+
+Double click this file. Lazarus is typically already associated with its native 
+files and will open automatically. It may take a moment or two to start Lazarus.
+
+If Lazarus does not start automatically after clicking the .lpr file go to the 
+Programming section, start Lazarus and open the .lpr file from the Lazarus IDE.
+
+With the project opened go to "Run" in the main menu and select "Build". Then 
+select Run once this completes or the F9 key. It may take up to two minutes 
+for Pi Vision to run.
+
+If you have setup your camera correctly you will be able to directly use 
+Pi Vision to control it.

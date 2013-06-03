@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Release"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="rpiCC.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="rpiCC"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="45"/>
+        <CursorPos X="46" Y="60"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="rpiccmainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="rpiCCMainForm"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1691"/>
+        <CursorPos X="3" Y="1697"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="rpiccbackendmanager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="rpiccBackEndManager"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1198"/>
+        <CursorPos X="43" Y="1212"/>
+        <FoldState Value=" TJiO2_.1 pjPjT2~a032p"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="/usr/share/lazarus/1.0.8/lcl/extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="680"/>
+        <CursorPos X="14" Y="542"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="17" Column="30" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="301" Column="8" TopLine="283"/>
+      </Position2>
+      <Position3>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="302" Column="3" TopLine="283"/>
+      </Position3>
+      <Position4>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="378" Column="52" TopLine="367"/>
+      </Position4>
+      <Position5>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="384" Column="29" TopLine="375"/>
+      </Position5>
+      <Position6>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="383" Column="29" TopLine="374"/>
+      </Position6>
+      <Position7>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="380" Column="38" TopLine="375"/>
+      </Position7>
+      <Position8>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="381" Column="38" TopLine="376"/>
+      </Position8>
+      <Position9>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="57" Column="63" TopLine="31"/>
+      </Position9>
+      <Position10>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="689" Column="15" TopLine="664"/>
+      </Position10>
+      <Position11>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="692" Column="19" TopLine="675"/>
+      </Position11>
+      <Position12>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="691" Column="28" TopLine="678"/>
+      </Position12>
+      <Position13>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="1442" Column="13" TopLine="1438"/>
+      </Position13>
+      <Position14>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="1449" Column="13" TopLine="1449"/>
+      </Position14>
+      <Position15>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="714" Column="5" TopLine="451"/>
+      </Position15>
+      <Position16>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="719" Column="5" TopLine="717"/>
+      </Position16>
+      <Position17>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="714" Column="28" TopLine="694"/>
+      </Position17>
+      <Position18>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="715" Column="28" TopLine="695"/>
+      </Position18>
+      <Position19>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="716" Column="28" TopLine="696"/>
+      </Position19>
+      <Position20>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="341" Column="107" TopLine="338"/>
+      </Position20>
+      <Position21>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="439" Column="64" TopLine="420"/>
+      </Position21>
+      <Position22>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="1049" Column="44" TopLine="1029"/>
+      </Position22>
+      <Position23>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="1523" Column="66" TopLine="1506"/>
+      </Position23>
+      <Position24>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="1546" Column="67" TopLine="1530"/>
+      </Position24>
+      <Position25>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="1572" Column="53" TopLine="1555"/>
+      </Position25>
+      <Position26>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="9" Column="45" TopLine="1"/>
+      </Position26>
+      <Position27>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="1706" Column="18" TopLine="1694"/>
+      </Position27>
+      <Position28>
+        <Filename Value="rpiccbackendmanager.pas"/>
+        <Caret Line="499" Column="14" TopLine="485"/>
+      </Position28>
+      <Position29>
+        <Filename Value="rpiccmainform.pas"/>
+        <Caret Line="1697" Column="32" TopLine="1682"/>
+      </Position29>
+      <Position30>
+        <Filename Value="rpiccbackendmanager.pas"/>
+        <Caret Line="1216" Column="9" TopLine="1198"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
