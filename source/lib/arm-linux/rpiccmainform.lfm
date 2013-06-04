@@ -4297,23 +4297,23 @@ object MainForm: TMainForm
   OnCreate = FormCreate
   OnShow = FormShow
   Position = poScreenCenter
-  LCLVersion = '0.9.30.4'
+  LCLVersion = '1.0.8.0'
   object PageControl1: TPageControl
     Left = 9
     Height = 236
     Top = 112
     Width = 622
-    ActivePage = TabSheet1
+    ActivePage = TabSheet5
     Align = alClient
     BorderSpacing.Left = 9
     BorderSpacing.Right = 9
     ShowTabs = False
-    TabIndex = 0
+    TabIndex = 4
     TabOrder = 0
     object TabSheet1: TTabSheet
       Caption = 'Main'
-      ClientHeight = 234
-      ClientWidth = 620
+      ClientHeight = 228
+      ClientWidth = 614
       object Button7: TButton
         Left = 448
         Height = 25
@@ -4327,7 +4327,7 @@ object MainForm: TMainForm
       end
       object Image1: TImage
         Left = 12
-        Height = 210
+        Height = 204
         Top = 12
         Width = 416
         Align = alLeft
@@ -6399,9 +6399,9 @@ object MainForm: TMainForm
       end
       object CheckBox4: TCheckBox
         Left = 448
-        Height = 19
+        Height = 24
         Top = 156
-        Width = 98
+        Width = 97
         Caption = 'Demo Mode'
         OnMouseEnter = CheckBox4MouseEnter
         OnMouseLeave = Button2MouseLeave
@@ -6424,15 +6424,15 @@ object MainForm: TMainForm
         Left = 291
         Height = 16
         Top = 54
-        Width = 308
+        Width = 289
         Caption = 'A Simple Controller for the Raspberry Pi Camera'
         ParentColor = False
       end
     end
     object TabSheet2: TTabSheet
       Caption = 'Camera'
-      ClientHeight = 234
-      ClientWidth = 620
+      ClientHeight = 228
+      ClientWidth = 614
       object Button8: TButton
         Left = 448
         Height = 25
@@ -9177,8 +9177,8 @@ object MainForm: TMainForm
     end
     object TabSheet3: TTabSheet
       Caption = 'Video'
-      ClientHeight = 234
-      ClientWidth = 620
+      ClientHeight = 228
+      ClientWidth = 614
       object Panel5: TPanel
         Left = 9
         Height = 210
@@ -9595,8 +9595,8 @@ object MainForm: TMainForm
     end
     object TabSheet4: TTabSheet
       Caption = 'Settings'
-      ClientHeight = 234
-      ClientWidth = 620
+      ClientHeight = 228
+      ClientWidth = 614
       object Panel6: TPanel
         Left = 9
         Height = 210
@@ -9941,8 +9941,8 @@ object MainForm: TMainForm
     end
     object TabSheet5: TTabSheet
       Caption = 'Info'
-      ClientHeight = 234
-      ClientWidth = 620
+      ClientHeight = 228
+      ClientWidth = 614
       object Panel8: TPanel
         Left = 9
         Height = 84
@@ -10172,13 +10172,13 @@ object MainForm: TMainForm
     end
     object TabSheet6: TTabSheet
       Caption = 'TabSheet6'
-      ClientHeight = 234
-      ClientWidth = 620
+      ClientHeight = 228
+      ClientWidth = 614
       object PageControl2: TPageControl
         Left = 0
-        Height = 234
+        Height = 228
         Top = 0
-        Width = 620
+        Width = 614
         ActivePage = TabSheet8
         Align = alClient
         ShowTabs = False
@@ -10186,8 +10186,8 @@ object MainForm: TMainForm
         TabOrder = 0
         object TabSheet7: TTabSheet
           Caption = 'TabSheet7'
-          ClientHeight = 232
-          ClientWidth = 618
+          ClientHeight = 220
+          ClientWidth = 606
           object Image4: TImage
             Left = 0
             Height = 220
@@ -11594,13 +11594,13 @@ object MainForm: TMainForm
         end
         object TabSheet8: TTabSheet
           Caption = 'TabSheet8'
-          ClientHeight = 232
-          ClientWidth = 618
+          ClientHeight = 220
+          ClientWidth = 606
           object Memo3: TMemo
             Left = 9
-            Height = 182
+            Height = 170
             Top = 9
-            Width = 600
+            Width = 588
             Align = alClient
             BorderSpacing.Bottom = 32
             BorderSpacing.Around = 9
@@ -11685,8 +11685,8 @@ object MainForm: TMainForm
         end
         object TabSheet9: TTabSheet
           Caption = 'TabSheet9'
-          ClientHeight = 232
-          ClientWidth = 618
+          ClientHeight = 220
+          ClientWidth = 606
           object Memo4: TMemo
             Left = 9
             Height = 170
@@ -11749,7 +11749,7 @@ object MainForm: TMainForm
       Left = 4
       Height = 16
       Top = 8
-      Width = 29
+      Width = 27
       Caption = 'Info'
       Font.Style = [fsBold]
       ParentColor = False
@@ -11870,7 +11870,6 @@ object MainForm: TMainForm
     TabOrder = 4
   end
   object SavePictureDialog1: TSavePictureDialog
-    Title = 'Save file as'
     Options = [ofOverwritePrompt, ofEnableSizing, ofViewDetail]
     left = 536
     top = 80

@@ -8,10 +8,12 @@
         <Filename Value="rpiCC.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="rpiCC"/>
+        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="45"/>
         <CursorPos X="46" Y="60"/>
         <UsageCount Value="201"/>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="rpiccmainform.pas"/>
@@ -20,21 +22,26 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="rpiCCMainForm"/>
-        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1691"/>
         <CursorPos X="3" Y="1697"/>
         <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="rpiccbackendmanager.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="rpiccBackEndManager"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1550"/>
         <CursorPos X="32" Y="1559"/>
         <FoldState Value=" TJiO2_.1 pjPjT2~a032p"/>
         <UsageCount Value="201"/>
+        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="/usr/share/lazarus/1.0.8/lcl/extctrls.pp"/>
@@ -45,6 +52,9 @@
         <UsageCount Value="10"/>
       </Unit3>
     </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
     <JumpHistory Count="0" HistoryIndex="-1"/>
   </ProjectSession>
 </CONFIG>
