@@ -1560,7 +1560,7 @@ begin
 
     lProcess.Options := lProcess.Options + [poWaitOnExit, poUsePipes];
     lProcess.Execute;
-    while lProcess.Running do begin Sleep(12); end;
+    while lProcess.Running do begin Sleep(12); Application.ProcessMessages; end;
 
     StatusMemo.Lines.LoadFromStream(lProcess.Output);// Output
     MessagesMemo.Lines.LoadFromStream(lProcess.Stderr);// Error

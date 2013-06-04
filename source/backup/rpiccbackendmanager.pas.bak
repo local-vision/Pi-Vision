@@ -1213,7 +1213,6 @@ begin
   if v_Preview_PreviewTest then // preview only no image save
   begin
     v_Preview_PreviewTest:=False;
-    showmessge('hi');
     Result:=SC;
     exit;
   end;
